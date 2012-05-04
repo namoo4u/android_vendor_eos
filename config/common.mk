@@ -88,11 +88,6 @@ PRODUCT_PACKAGES += \
     libFFmpegExtractor \
     libnamparser
 
-# CM Hardware Abstraction Framework
-PRODUCT_PACKAGES += \
-    org.cyanogenmod.hardware \
-    org.cyanogenmod.hardware.xml
-
 # Busybox
 PRODUCT_PACKAGES += \
     Busybox
@@ -113,6 +108,14 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.root_access=0
+
+# CM Hardware Abstraction Framework
+PRODUCT_PACKAGES += \
+    org.cyanogenmod.hardware \
+    org.cyanogenmod.hardware.xml
+
+# T-Mobile theme engine
+include vendor/cm/config/themes_common.mk
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/eos/overlay/common
 
