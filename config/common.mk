@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AudioFX \
     BluetoothExt \
+    CellBroadcastReceiver \
     CustomWallpapers \
     Eleven \
     Launcher3 \
