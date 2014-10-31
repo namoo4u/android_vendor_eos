@@ -63,7 +63,9 @@ PRODUCT_PACKAGES += \
     mkfs.f2fs \
     fsck.f2fs \
     fibmap.f2fs \
-    ntfs-3g
+    ntfs-3g \
+    zip \
+    unrar
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
