@@ -54,6 +54,11 @@ PRODUCT_PACKAGES += \
     audio_effects.conf \
     DSPManager
 
+# CM Hardware Abstraction Framework
+PRODUCT_PACKAGES += \
+    org.cyanogenmod.hardware \
+    org.cyanogenmod.hardware.xml
+
 # Busybox
 PRODUCT_PACKAGES += \
     Busybox \
@@ -67,3 +72,5 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/eos/overlay/common
 
 # Inherit common product build prop overrides
 -include vendor/eos/config/common_versions.mk
+
+$(call inherit-product-if-exists, vendor/extra/product.mk)
