@@ -51,8 +51,8 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     Apollo \
     libcyanogen-dsp \
-    audio_effects.conf \
-    DSPManager
+    DSPManager \
+    Launcher3
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
