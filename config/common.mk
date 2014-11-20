@@ -54,6 +54,17 @@ PRODUCT_PACKAGES += \
     DSPManager \
     Launcher3
 
+# Extra tools
+PRODUCT_PACKAGES += \
+    bash \
+    mount.exfat \
+    fsck.exfat \
+    mkfs.exfat \
+    mkfs.f2fs \
+    fsck.f2fs \
+    fibmap.f2fs \
+    ntfs-3g
+
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
     org.cyanogenmod.hardware \
