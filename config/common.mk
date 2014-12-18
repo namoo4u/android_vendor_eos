@@ -54,9 +54,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AudioFX \
     CMFileManager \
+    CustomWallpapers \
     Eleven \
     Launcher3 \
-    CustomWallpapers
+    LockClock
 
 # Extra tools
 PRODUCT_PACKAGES += \
