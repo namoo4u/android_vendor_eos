@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AudioFX \
     BluetoothExt \
-    CMFileManager \
     CustomWallpapers \
     Eleven \
     Launcher3 \
@@ -75,9 +74,7 @@ PRODUCT_PACKAGES += \
     fsck.f2fs \
     fibmap.f2fs \
     ntfsfix \
-    ntfs-3g \
-    zip \
-    unrar
+    ntfs-3g
 
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
